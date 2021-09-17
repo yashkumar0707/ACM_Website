@@ -76,7 +76,7 @@ const Tab = (props) => {
   const toggle = tab => {
     if (activeTab !== tab) setActiveTab(tab);
   }
-  const form_links = ['http://localhost:3000/#/sigs/1','http://localhost:3000/#/sigs/2','http://localhost:3000/#/sigs/3','http://localhost:3000/#/sigs/4','http://localhost:3000/#/sigs/5','http://localhost:3000/#/sigs/6']
+  const form_links = ['https://forms.gle/VbgN5NtNjH1BUsDm8','https://forms.gle/FAvFAY5bZZ9qAtqq8','https://forms.gle/J8VHV8vz6L2ZaTES8','https://forms.gle/tdH7CVForBHRqjvt5','http://localhost:3000/#/sigs/5','https://forms.gle/hkCpo9rD16jXhEfx6']
   const form_redirect = (id) =>{
     console.log(id)
     window.location.href=form_links[(id-1)]
